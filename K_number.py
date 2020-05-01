@@ -9,7 +9,6 @@ def solution(array, commands):
     for i in range(len(commands)):
         test=array[commands[i][0]-1:commands[i][1]]
         test.sort()
-        #K=commands[i][2]-1
         answer.append(test[commands[i][2]-1])
         test.clear()
 

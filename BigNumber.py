@@ -20,7 +20,7 @@ def solution(n):
                 answer =['9']
             else: len_t += n[i]
             
-    print(len_t)
+    print(len_t)gi
     len_t.sort(reverse=True)
 
     for s in range(len(len_t)-1):
