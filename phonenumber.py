@@ -15,9 +15,7 @@ def solution(phone_book):
 
     for i in range(len(phone_book)-1):
         if phone_book[i] == phone_book[i+1][0:len(phone_book[i])]:
-            print(False)
             return False
-    print(answer)
     return answer
 
 
