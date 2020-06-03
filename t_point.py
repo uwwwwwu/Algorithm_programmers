@@ -20,3 +20,5 @@ for start in range(n):
     summary -= data[start]
     
 print(result)
+
+#출처 : https://www.youtube.com/watch?v=rI8NRQsAS_s (나동빈)
