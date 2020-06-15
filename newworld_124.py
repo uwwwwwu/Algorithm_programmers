@@ -6,9 +6,8 @@ def solution(n):
     if i == 0:
         return item[j]
     else :
-        re = solution(i+1) + item[j]
-        print (re)
-        return re
+        return solution(i) + item[j]
+
 solution(1)
 solution(2)
 solution(3)
